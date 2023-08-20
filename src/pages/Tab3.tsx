@@ -8,16 +8,16 @@ const Tab3: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 3</IonTitle>
+          <IonTitle>Features</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 3</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 3 page" />
+      <IonContent fullscreen className='ion-padding'>
+
+        <ul>
+          <li>Taxi</li>
+          <li>Logistics</li>
+          <li>Delivery</li>
+        </ul>
       </IonContent>
     </IonPage>
   );
